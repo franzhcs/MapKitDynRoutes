@@ -10,9 +10,10 @@
 @interface FFMapRoutes ()
 - (void) addCoordinate:(CLLocationCoordinate2D)coordinate toArray:(NSMutableArray *)array;
 - (void) aggregateRoutes;
-BOOL areCoordinateEqual(CLLocationCoordinate2D aCoordinate, CLLocationCoordinate2D bCoordinate);
 - (void) aggregatePoints:(NSArray *)points toArray:(NSMutableArray *)array;
 - (void) checkAggregationIsNeeded;
+
+BOOL areCoordinateEqual(CLLocationCoordinate2D *aCoordinate, CLLocationCoordinate2D *bCoordinate);
 @end
 
 @implementation FFMapRoutes
@@ -86,9 +87,9 @@ BOOL areCoordinateEqual(CLLocationCoordinate2D aCoordinate, CLLocationCoordinate
 #pragma mark -
 #pragma mark Private Methods
 
-BOOL areCoordinateEqual(CLLocationCoordinate2D aCoordinate, CLLocationCoordinate2D bCoordinate) {
-	if ((aCoordinate.latitude == bCoordinate.latitude) &&
-		(aCoordinate.longitude == bCoordinate.longitude))
+BOOL areCoordinateEqual(CLLocationCoordinate2D *aCoordinate, CLLocationCoordinate2D *bCoordinate) {
+	if ((aCoordinate->latitude == bCoordinate->latitude) &&
+		(aCoordinate->longitude == bCoordinate->longitude))
 		return TRUE;
 	return FALSE;
 }
@@ -159,6 +160,8 @@ BOOL areCoordinateEqual(CLLocationCoordinate2D aCoordinate, CLLocationCoordinate
 	else {
 		[self aggregatePoints:lastroutes toArray:prevroutes];
 	}
+	
+	[lastroutes release];
 }
 
 - (void) aggregatePoints:(NSArray *)points toArray:(NSMutableArray *)array {
@@ -170,7 +173,7 @@ BOOL areCoordinateEqual(CLLocationCoordinate2D aCoordinate, CLLocationCoordinate
 	for (FFMapRoute *route in points) {
 		for (NSData *value in [route points]) {
 			CLLocationCoordinate2D *coordinate = (CLLocationCoordinate2D *) [value bytes];
-			if (areCoordinateEqual(prev, *coordinate))
+			if (areCoordinateEqual(&prev, coordinate))
 				break;
 			[newPoints addObject:value];
 			prev = *coordinate;

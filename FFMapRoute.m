@@ -14,7 +14,9 @@
 
 - (id) initWithSegment:(NSArray *)segment {
 	if (self = [super init]) {
-		points = [[NSMutableArray alloc] initWithArray:segment];
+		NSMutableArray *newpoints = [[NSMutableArray alloc] initWithArray:segment];
+		self.points = newpoints;
+		[newpoints release];
 		
 		MKMapPoint *mapPoints = malloc(sizeof(MKMapPoint) * [points count]);
 		int idx=0;
@@ -29,6 +31,8 @@
 		/* Generate the new line */
 		MKPolyline *segmentLine = [MKPolyline polylineWithPoints:mapPoints count:[points count]];
 		
+		free(mapPoints);
+		
 		self.line = segmentLine;
 	}
 	
@@ -36,8 +40,8 @@
 }
 
 - (void) dealloc {
-	[line release];
-	[points release];
+	self.line = nil;
+	self.points = nil;
 
 	[super dealloc];
 }
