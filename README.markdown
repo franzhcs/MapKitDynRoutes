@@ -9,30 +9,31 @@ It works using an incremental way to add segments based on a integer factor.
 That value is called kAGGREGATION_FACTOR and its value is set to 3, by default (please, check _kAGGREGATION_FACTOR_ macro in _FFMapRoutes.h_).
 In order to explain it better, I'm going to drop you an example.
 Let's say the factor is 3 and the tracking begins.
-The segment sequence will be:
+The segment sequence will be:  
+
 A-B, B-C, C-D
 
--- *aggregation* --
+-- **aggregation** --
 	A-B-C-D
--- *end of aggregation* --
+-- **end of aggregation** --
 
 A-B-C-D, D-E, E-F, F-G
 
--- *aggregation* --
+-- **aggregation** --
 	A-B-C-D, D-E-F-G
--- *end of aggregation* --
+-- **end of aggregation** --
 
 A-B-C-D, D-E-F-G, ..
 
--- *aggregation* --
+-- **aggregation** --
 	...
--- *end of aggregation* --
+-- **end of aggregation** --
 
 	A-B-C-D, D-E-F-G, G-H-I-J
 
--- *aggregation* --
+-- **aggregation** --
 	A-B-C-D-E-F-G-H-I-J
--- *end of aggregation* --
+-- **end of aggregation** --
 
 and so on.
 
