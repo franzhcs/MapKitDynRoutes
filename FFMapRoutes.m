@@ -59,13 +59,13 @@ BOOL areCoordinateEqual(CLLocationCoordinate2D *aCoordinate, CLLocationCoordinat
 		FFMapRoute *route = [lastroutes lastObject];
 
 		/* If the level is the minor one, than we are good */
-		if (route.level == 1)
+		if (route.level == 0)
 			[self addCoordinate:coordinate toArray:lastroutes];
 
 		/* Otherwisely, we have to create a bogus element for all the missing levels */
 		else {
 			int currentLevel = route.level;
-			for (int i=(currentLevel - 1); i>=1; i--) {
+			for (int i=(currentLevel - 1); i>=0; i--) {
 				NSMutableArray *placeholder = [[NSMutableArray alloc] initWithCapacity:kAGGREGATION_FACTOR];
 				FFMapRoute *route = [[FFMapRoute alloc] init];
 				route.level = i;
@@ -118,7 +118,7 @@ BOOL areCoordinateEqual(CLLocationCoordinate2D *aCoordinate, CLLocationCoordinat
 	/* Otherwisely we have to create it */
 	route = [[FFMapRoute alloc] initWithSegment:segment];
 	/* Any new route has a level value of 1 */
-	route.level = 1;
+	route.level = 0;
 	[array addObject:route];
 	
 	[mapView addOverlay:[route line]];
@@ -156,8 +156,13 @@ BOOL areCoordinateEqual(CLLocationCoordinate2D *aCoordinate, CLLocationCoordinat
 		[routes addObject:newAggregatePoints];
 		[newAggregatePoints release];
 	}
-	/* Else, append it to the existing one */
+	/* Otherwisely, check if the prevroutes array contains a bogus MapRoute.
+	 If it is, then it's a placeholder so remove the bogus route it contains */
 	else {
+		FFMapRoute *route = [prevroutes lastObject];
+		if (route && (route.line == nil))
+			[prevroutes removeLastObject];
+	
 		[self aggregatePoints:lastroutes toArray:prevroutes];
 	}
 	
@@ -174,7 +179,7 @@ BOOL areCoordinateEqual(CLLocationCoordinate2D *aCoordinate, CLLocationCoordinat
 		for (NSData *value in [route points]) {
 			CLLocationCoordinate2D *coordinate = (CLLocationCoordinate2D *) [value bytes];
 			if (areCoordinateEqual(&prev, coordinate))
-				break;
+				continue;
 			[newPoints addObject:value];
 			prev = *coordinate;
 		}
