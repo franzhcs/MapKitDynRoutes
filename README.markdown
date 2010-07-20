@@ -5,14 +5,15 @@ This library tries to handle the lack of methods to manage growing routes withou
 repainting all of those anytime.
 
 ## Features
-FFMapRoute(s) provide two classes that manage a growing route using an algorithm to aggregate points without having the polyline to be redraw/regenerated every time a new point is acquired.
+FFMapRoute(s) provide two classes that manage a growing route using an algorithm to aggregate points without having the polyline to be redraw/regenerated every time a new point is acquired.  
 Furthemore, this set of classes, comes with a simulator that injects coordinates using a timer.
 
 ## How it works
-It works using an incremental way to add segments based on a integer factor.
-That value is called kAGGREGATION_FACTOR and its value is set to 3, by default (please, check _kAGGREGATION_FACTOR_ macro in _FFMapRoutes.h_).
-In order to explain it better, I'm going to drop you an example.
-Let's say the factor is 3 and the tracking begins.
+It works using an incremental way to add segments based on a integer factor.  
+That value is called kAGGREGATION_FACTOR and its value is set to 3, by default (please, check "kAGGREGATION_FACTOR" macro in "FFMapRoutes.h").  
+In order to explain it better, I'm going to drop you an example.  
+
+Let's say the factor is 3 and the tracking begins.  
 The segment sequence will be:  
 
 A-B, B-C, C-D
@@ -62,9 +63,9 @@ I want to say thanks to Walter 'DaK_TaLeS' for spending few nights talking about
 
 ## License
 
-This library and the associated demo are licensed under MIT license.
+This library and the associated demo are licensed under MIT license.  
 However, if you are using this library and you want to share with me the fact that it suits your needs, please drop me a line. I'll be glad to hear that.
 
 [1]:http://digdog.tumblr.com/post/833744044/xclang-fobjc-nonfragile-abi2-is-single-flag-with 
 
-Fabiano aka 'elbryan'
+Fabiano 'elbryan' Francesconi
