@@ -5,7 +5,7 @@
 *.perspectivev3
 *.pyc
 *~.nib/
-build/*
+Demo/build
 
 # osx noise
 .DS_Store

@@ -21,9 +21,6 @@
 /* Init the object with a segment */
 - (id) initWithSegment:(NSArray *)segment;
 
-/* Add the points contained in newPoints array to the local array*/
-- (void) addPointsFromArray:(NSArray *)newPoints;
-
 /* Add coordinate to the local array by wrapping it into a NSData object */
 - (void) addPoint:(CLLocationCoordinate2D) coordinate;
 

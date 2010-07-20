@@ -14,13 +14,14 @@
 
 - (id) initWithSegment:(NSArray *)segment {
 	if (self = [super init]) {
-		NSMutableArray *newpoints = [[NSMutableArray alloc] initWithArray:segment];
-		self.points = newpoints;
-		[newpoints release];
+		/* Retain an own copy of the segment array */
+		self.points = [NSMutableArray arrayWithArray:segment];
 		
+		/* Prepare an array of MKMapPoint in order to prepare the polyline */
 		MKMapPoint *mapPoints = malloc(sizeof(MKMapPoint) * [points count]);
 		int idx=0;
 
+		/* Fill mapPoints array with the coordinate converted in MKMapPoint */
 		for (NSData *value in points) {
 			CLLocationCoordinate2D *coordinate = (CLLocationCoordinate2D *) [value bytes];
 			MKMapPoint point = MKMapPointForCoordinate(*coordinate);
@@ -28,11 +29,14 @@
 			idx++;
 		}
 		
-		/* Generate the new line */
+		/* Generate the polyline */
 		MKPolyline *segmentLine = [MKPolyline polylineWithPoints:mapPoints count:[points count]];
 		
+		/* Free the array */
 		free(mapPoints);
 		
+		/* Retain the line. We need it in order to remove this (that's going to be added to the mapView
+		 in form of overlay) when aggregation occurs */
 		self.line = segmentLine;
 	}
 	
@@ -48,10 +52,6 @@
 
 #pragma mark -
 #pragma mark Public Methods
-
-- (void) addPointsFromArray:(NSArray *)newPoints {
-	[points addObjectsFromArray:newPoints];
-}
 
 - (void) addPoint:(CLLocationCoordinate2D) coordinate {
 	NSData *newPoint = [NSData dataWithBytes:&coordinate length:sizeof(CLLocationCoordinate2D)];

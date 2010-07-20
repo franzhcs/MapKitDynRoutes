@@ -89,8 +89,9 @@ BOOL areCoordinateEqual(CLLocationCoordinate2D *aCoordinate, CLLocationCoordinat
 
 BOOL areCoordinateEqual(CLLocationCoordinate2D *aCoordinate, CLLocationCoordinate2D *bCoordinate) {
 	if ((aCoordinate->latitude == bCoordinate->latitude) &&
-		(aCoordinate->longitude == bCoordinate->longitude))
+		(aCoordinate->longitude == bCoordinate->longitude)) {
 		return TRUE;
+	}
 	return FALSE;
 }
 
@@ -139,7 +140,7 @@ BOOL areCoordinateEqual(CLLocationCoordinate2D *aCoordinate, CLLocationCoordinat
 	NSArray *lastroutes;
 	NSMutableArray *prevroutes;
 
-	/* Extract the last points and remove those from the routes array */
+	/* Extract the last points array and remove it from the routes array so we need to retain it*/
 	lastroutes = [[routes lastObject] retain];
 	[routes removeLastObject];
 	
@@ -155,7 +156,7 @@ BOOL areCoordinateEqual(CLLocationCoordinate2D *aCoordinate, CLLocationCoordinat
 		[newAggregatePoints release];
 	}
 	/* Otherwisely, check if the prevroutes array contains a bogus MapRoute.
-	 If it is, then it's a placeholder so remove the bogus route it contains */
+	 If it is, then it's a placeholder and deserves to be removed in order to add the new data */
 	else {
 		FFMapRoute *route = [prevroutes lastObject];
 		if (route && (route.line == nil))
@@ -164,6 +165,7 @@ BOOL areCoordinateEqual(CLLocationCoordinate2D *aCoordinate, CLLocationCoordinat
 		[self aggregatePoints:lastroutes toArray:prevroutes];
 	}
 	
+	/* Free the retained object since we don't need it anymore */
 	[lastroutes release];
 }
 
@@ -176,23 +178,29 @@ BOOL areCoordinateEqual(CLLocationCoordinate2D *aCoordinate, CLLocationCoordinat
 	for (FFMapRoute *route in points) {
 		for (NSData *value in [route points]) {
 			CLLocationCoordinate2D *coordinate = (CLLocationCoordinate2D *) [value bytes];
+			/* If the previous cordinate is equal to the next, then we need only one of those */
 			if (areCoordinateEqual(&prev, coordinate))
 				continue;
 			[newPoints addObject:value];
 			prev = *coordinate;
 		}
+		/* Gather the level of the route. This level is equal for all the FFMapRoute contained
+		 in points array so this assignment might be taken out of the for statement */
 		level = route.level;
+
 		/* Remove the overlay */
 		[mapView removeOverlay:route.line];
 	}
 	
+	/* Generate the new route */
 	FFMapRoute *newRoute = [[FFMapRoute alloc] initWithSegment:newPoints];
-	[newPoints release];
 	newRoute.level = ++level;
-	
-	[mapView addOverlay:[newRoute line]];
-	
 	[array addObject:newRoute];
+	
+	/* Add the polyline to the map */
+	[mapView addOverlay:[newRoute line]];
+
+	[newPoints release];
 	[newRoute release];
 }
 
