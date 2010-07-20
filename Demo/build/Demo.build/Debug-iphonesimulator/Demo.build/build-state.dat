@@ -1,0 +1,506 @@
+TDemo
+v7
+r0
+t301309434.874841
+cCheck dependencies
+cProcessInfoPlistFile /Users/elbryan/Documents/MapKitDynRoutes/Demo/build/Debug-iphonesimulator/Demo.app/Info.plist Demo-Info.plist
+cCompileXIB /Users/elbryan/Documents/MapKitDynRoutes/Demo/MainWindow.xib
+cCpResource build/Debug-iphonesimulator/Demo.app/route.csv Resources/route.csv
+cCompileXIB /Users/elbryan/Documents/MapKitDynRoutes/Demo/Classes/MapViewController.xib
+cProcessPCH /var/folders/r2/r2eLjUuiFnq6ipRA0GZqVU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Demo_Prefix-arlkqkqdacfsvpalpiiplrsszofi/Demo_Prefix.pch.pth Demo_Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/Demo.build/Debug-iphonesimulator/Demo.build/Objects-normal/i386/main.o /Users/elbryan/Documents/MapKitDynRoutes/Demo/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/Demo.build/Debug-iphonesimulator/Demo.build/Objects-normal/i386/DemoAppDelegate.o /Users/elbryan/Documents/MapKitDynRoutes/Demo/Classes/DemoAppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/Demo.build/Debug-iphonesimulator/Demo.build/Objects-normal/i386/FFMapRoute.o /Users/elbryan/Documents/MapKitDynRoutes/Demo/../FFMapRoute.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/Demo.build/Debug-iphonesimulator/Demo.build/Objects-normal/i386/FFMapRoutes.o /Users/elbryan/Documents/MapKitDynRoutes/Demo/../FFMapRoutes.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/Demo.build/Debug-iphonesimulator/Demo.build/Objects-normal/i386/FFLocationManager.o /Users/elbryan/Documents/MapKitDynRoutes/Demo/Classes/FFLocationManager.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/Demo.build/Debug-iphonesimulator/Demo.build/Objects-normal/i386/MapViewController.o /Users/elbryan/Documents/MapKitDynRoutes/Demo/Classes/MapViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLd /Users/elbryan/Documents/MapKitDynRoutes/Demo/build/Debug-iphonesimulator/Demo.app/Demo normal i386
+cGenerateDSYMFile /Users/elbryan/Documents/MapKitDynRoutes/Demo/build/Debug-iphonesimulator/Demo.app.dSYM /Users/elbryan/Documents/MapKitDynRoutes/Demo/build/Debug-iphonesimulator/Demo.app/Demo
+cTouch /Users/elbryan/Documents/MapKitDynRoutes/Demo/build/Debug-iphonesimulator/Demo.app
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk
+c000000004C2078A30000000000000132
+t1277196451
+s306
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004BFDFE39000000000027C7D0
+t1274936889
+s2607056
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/CoreLocation.framework/CoreLocation
+c000000004BFF44C00000000000068F90
+t1275020480
+s429968
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.h
+c000000004BFF44B600000000000001D0
+t1275020470
+s464
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004BFDFE7C000000000029D5D0
+t1274936956
+s2741712
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004BFDFE6E0000000000001466
+t1274936942
+s5222
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/MapKit.framework/Headers/MapKit.h
+c000000004C04724700000000000002FE
+t1275359815
+s766
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/MapKit.framework/MapKit
+c000000004C04725B0000000000160350
+t1275359835
+s1442640
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004C0470BB00000000000009CD
+t1275359419
+s2509
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004C0471620000000001D47210
+t1275359586
+s30700048
+
+N/Users/elbryan/Documents/MapKitDynRoutes/Demo/../FFMapRoute.m
+c000000004C44563C0000000000000531
+t1279546940
+s1329
+i"FFMapRoute.h"
+
+N/Users/elbryan/Documents/MapKitDynRoutes/Demo/../FFMapRoutes.m
+c000000004C44563C0000000000001666
+t1279546940
+s5734
+i"FFMapRoutes.h"
+
+N/Users/elbryan/Documents/MapKitDynRoutes/Demo/Classes/DemoAppDelegate.h
+c000000004C4563A9000000000000018D
+t1279615913
+s397
+i<UIKit/UIKit.h>
+i"MapViewController.h"
+
+N/Users/elbryan/Documents/MapKitDynRoutes/Demo/Classes/DemoAppDelegate.m
+c000000004C4563C20000000000000ABE
+t1279615938
+s2750
+i"DemoAppDelegate.h"
+
+N/Users/elbryan/Documents/MapKitDynRoutes/Demo/Classes/FFLocationManager.h
+c000000004C45646400000000000002D8
+t1279616100
+s728
+i<UIKit/UIKit.h>
+i<Foundation/Foundation.h>
+i<CoreLocation/CoreLocation.h>
+
+N/Users/elbryan/Documents/MapKitDynRoutes/Demo/Classes/FFLocationManager.m
+c000000004C3B024200000000000008DC
+t1278935618
+s2268
+i"FFLocationManager.h"
+
+N/Users/elbryan/Documents/MapKitDynRoutes/Demo/Classes/MapViewController.h
+c000000004C4564EE00000000000001FD
+t1279616238
+s509
+i<UIKit/UIKit.h>
+i<MapKit/MapKit.h>
+i"FFLocationManager.h"
+i"FFMapRoutes.h"
+
+N/Users/elbryan/Documents/MapKitDynRoutes/Demo/Classes/MapViewController.m
+c000000004C4566790000000000000AF0
+t1279616633
+s2800
+i"MapViewController.h"
+
+N/Users/elbryan/Documents/MapKitDynRoutes/Demo/Classes/MapViewController.xib
+c000000004C4563D400000000000042E5
+t1279615956
+s17125
+
+N/Users/elbryan/Documents/MapKitDynRoutes/Demo/Demo_Prefix.pch
+c000000004C455D4600000000000000B1
+t1279614278
+s177
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/elbryan/Documents/MapKitDynRoutes/Demo/MainWindow.xib
+c000000004C455D4600000000000020F9
+t1279614278
+s8441
+
+N/Users/elbryan/Documents/MapKitDynRoutes/Demo/Resources/route.csv
+c000000004C07B9470000000000001CBF
+t1275574599
+s7359
+
+N/Users/elbryan/Documents/MapKitDynRoutes/Demo/build/Debug-iphonesimulator/Demo.app
+t1279616634
+s272
+
+N/Users/elbryan/Documents/MapKitDynRoutes/Demo/build/Debug-iphonesimulator/Demo.app.dSYM
+t1279616634
+s102
+
+N/Users/elbryan/Documents/MapKitDynRoutes/Demo/build/Debug-iphonesimulator/Demo.app/Demo
+t1279616634
+s43288
+
+N/Users/elbryan/Documents/MapKitDynRoutes/Demo/build/Debug-iphonesimulator/Demo.app/Info.plist
+t1279615824
+s616
+
+N/Users/elbryan/Documents/MapKitDynRoutes/Demo/build/Debug-iphonesimulator/Demo.app/MainWindow.nib
+t1279615686
+s1528
+
+N/Users/elbryan/Documents/MapKitDynRoutes/Demo/build/Debug-iphonesimulator/Demo.app/MapViewController.nib
+t1279615964
+s1903
+
+N/Users/elbryan/Documents/MapKitDynRoutes/Demo/build/Debug-iphonesimulator/Demo.app/PkgInfo
+t1279615824
+s8
+
+N/Users/elbryan/Documents/MapKitDynRoutes/Demo/build/Debug-iphonesimulator/Demo.app/route.csv
+t1279615685
+s7359
+
+N/Users/elbryan/Documents/MapKitDynRoutes/Demo/build/Demo.build/Debug-iphonesimulator/Demo.build/Objects-normal/i386/Demo.LinkFileList
+c000000004C4562C50000000000000314
+t1279615685
+s788
+
+N/Users/elbryan/Documents/MapKitDynRoutes/Demo/build/Demo.build/Debug-iphonesimulator/Demo.build/Objects-normal/i386/DemoAppDelegate.o
+t1279616238
+s45400
+
+N/Users/elbryan/Documents/MapKitDynRoutes/Demo/build/Demo.build/Debug-iphonesimulator/Demo.build/Objects-normal/i386/FFLocationManager.o
+t1279616101
+s16564
+
+N/Users/elbryan/Documents/MapKitDynRoutes/Demo/build/Demo.build/Debug-iphonesimulator/Demo.build/Objects-normal/i386/FFMapRoute.o
+t1279615686
+s12224
+
+N/Users/elbryan/Documents/MapKitDynRoutes/Demo/build/Demo.build/Debug-iphonesimulator/Demo.build/Objects-normal/i386/FFMapRoutes.o
+t1279615686
+s43528
+
+N/Users/elbryan/Documents/MapKitDynRoutes/Demo/build/Demo.build/Debug-iphonesimulator/Demo.build/Objects-normal/i386/MapViewController.o
+t1279616634
+s46172
+
+N/Users/elbryan/Documents/MapKitDynRoutes/Demo/build/Demo.build/Debug-iphonesimulator/Demo.build/Objects-normal/i386/main.o
+t1279615686
+s3028
+
+N/Users/elbryan/Documents/MapKitDynRoutes/Demo/main.m
+c000000004C455D46000000000000016E
+t1279614278
+s366
+i<UIKit/UIKit.h>
+
+N/Users/elbryan/Documents/MapKitDynRoutes/FFMapRoute.h
+c000000004C44563C0000000000000312
+t1279546940
+s786
+i<Foundation/Foundation.h>
+i<MapKit/MapKit.h>
+
+N/Users/elbryan/Documents/MapKitDynRoutes/FFMapRoutes.h
+c000000004C44563C00000000000002AD
+t1279546940
+s685
+i<Foundation/Foundation.h>
+i<CoreLocation/CoreLocation.h>
+i<MapKit/MapKit.h>
+i"FFMapRoute.h"
+
+N/var/folders/r2/r2eLjUuiFnq6ipRA0GZqVU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Demo_Prefix-arlkqkqdacfsvpalpiiplrsszofi/Demo_Prefix.pch.pth
+t1279615686
+s2690428
+
+N/var/folders/r2/r2eLjUuiFnq6ipRA0GZqVU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Demo_Prefix-cyhzskebsswlltamzeqvbjsugbgo/Demo_Prefix.pch.pth
+t2
+s0
+
+N/var/folders/r2/r2eLjUuiFnq6ipRA0GZqVU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Demo_Prefix-etkasqipsjfyzyhcosektqdqsfmf/Demo_Prefix.pch.gch
+t1279615398
+s15232016
+
+NDemo-Info.plist
+c000000004C45634E00000000000003BE
+t1279615822
+s958
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies301309434#301309434#0(0"0(0#1#0"8620472416#0"0#
+
+CCompileC build/Demo.build/Debug-iphonesimulator/Demo.build/Objects-normal/i386/DemoAppDelegate.o /Users/elbryan/Documents/MapKitDynRoutes/Demo/Classes/DemoAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s301308199.188230
+e301308199.363986
+r1
+xCompileC
+xbuild/Demo.build/Debug-iphonesimulator/Demo.build/Objects-normal/i386/DemoAppDelegate.o
+x/Users/elbryan/Documents/MapKitDynRoutes/Demo/Classes/DemoAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@79"Compile /Users/elbryan/Documents/MapKitDynRoutes/Demo/Classes/DemoAppDelegate.m301308199#301308199#0(0"0(0#0#71"/Users/elbryan/Documents/MapKitDynRoutes/Demo/Classes/DemoAppDelegate.m8618457632#1948"    cd /Users/elbryan/Documents/MapKitDynRoutes/Demo    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/elbryan/Documents/MapKitDynRoutes/Demo/build/Demo.build/Debug-iphonesimulator/Demo.build/Demo-generated-files.hmap -I/Users/elbryan/Documents/MapKitDynRoutes/Demo/build/Demo.build/Debug-iphonesimulator/Demo.build/Demo-own-target-headers.hmap -I/Users/elbryan/Documents/MapKitDynRoutes/Demo/build/Demo.build/Debug-iphonesimulator/Demo.build/Demo-all-target-headers.hmap -iquote /Users/elbryan/Documents/MapKitDynRoutes/Demo/build/Demo.build/Debug-iphonesimulator/Demo.build/Demo-project-headers.hmap -F/Users/elbryan/Documents/MapKitDynRoutes/Demo/build/Debug-iphonesimulator -I/Users/elbryan/Documents/MapKitDynRoutes/Demo/build/Debug-iphonesimulator/include -I/Users/elbryan/Documents/MapKitDynRoutes/Demo/build/Demo.build/Debug-iphonesimulator/Demo.build/DerivedSources/i386 -I/Users/elbryan/Documents/MapKitDynRoutes/Demo/build/Demo.build/Debug-iphonesimulator/Demo.build/DerivedSources -include /var/folders/r2/r2eLjUuiFnq6ipRA0GZqVU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Demo_Prefix-etkasqipsjfyzyhcosektqdqsfmf/Demo_Prefix.pch -c /Users/elbryan/Documents/MapKitDynRoutes/Demo/Classes/DemoAppDelegate.m -o /Users/elbryan/Documents/MapKitDynRoutes/Demo/build/Demo.build/Debug-iphonesimulator/Demo.build/Objects-normal/i386/DemoAppDelegate.o0#
+
+CCompileC build/Demo.build/Debug-iphonesimulator/Demo.build/Objects-normal/i386/DemoAppDelegate.o /Users/elbryan/Documents/MapKitDynRoutes/Demo/Classes/DemoAppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s301309038.647034
+e301309038.769394
+r1
+xCompileC
+xbuild/Demo.build/Debug-iphonesimulator/Demo.build/Objects-normal/i386/DemoAppDelegate.o
+x/Users/elbryan/Documents/MapKitDynRoutes/Demo/Classes/DemoAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF07#2@79"Compile /Users/elbryan/Documents/MapKitDynRoutes/Demo/Classes/DemoAppDelegate.m301309038#301309038#0(0"0(0#0#71"/Users/elbryan/Documents/MapKitDynRoutes/Demo/Classes/DemoAppDelegate.m8623485632#2015"    cd /Users/elbryan/Documents/MapKitDynRoutes/Demo    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/elbryan/Documents/MapKitDynRoutes/Demo/build/Demo.build/Debug-iphonesimulator/Demo.build/Demo-generated-files.hmap -I/Users/elbryan/Documents/MapKitDynRoutes/Demo/build/Demo.build/Debug-iphonesimulator/Demo.build/Demo-own-target-headers.hmap -I/Users/elbryan/Documents/MapKitDynRoutes/Demo/build/Demo.build/Debug-iphonesimulator/Demo.build/Demo-all-target-headers.hmap -iquote /Users/elbryan/Documents/MapKitDynRoutes/Demo/build/Demo.build/Debug-iphonesimulator/Demo.build/Demo-project-headers.hmap -F/Users/elbryan/Documents/MapKitDynRoutes/Demo/build/Debug-iphonesimulator -I/Users/elbryan/Documents/MapKitDynRoutes/Demo/build/Debug-iphonesimulator/include -I/Users/elbryan/Documents/MapKitDynRoutes/Demo/build/Demo.build/Debug-iphonesimulator/Demo.build/DerivedSources/i386 -I/Users/elbryan/Documents/MapKitDynRoutes/Demo/build/Demo.build/Debug-iphonesimulator/Demo.build/DerivedSources -Xclang -fobjc-nonfragile-abi2 -include /var/folders/r2/r2eLjUuiFnq6ipRA0GZqVU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Demo_Prefix-arlkqkqdacfsvpalpiiplrsszofi/Demo_Prefix.pch -c /Users/elbryan/Documents/MapKitDynRoutes/Demo/Classes/DemoAppDelegate.m -o /Users/elbryan/Documents/MapKitDynRoutes/Demo/build/Demo.build/Debug-iphonesimulator/Demo.build/Objects-normal/i386/DemoAppDelegate.o0#
+
+CCompileC build/Demo.build/Debug-iphonesimulator/Demo.build/Objects-normal/i386/FFLocationManager.o /Users/elbryan/Documents/MapKitDynRoutes/Demo/Classes/FFLocationManager.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s301308199.455282
+e301308199.588111
+r1
+xCompileC
+xbuild/Demo.build/Debug-iphonesimulator/Demo.build/Objects-normal/i386/FFLocationManager.o
+x/Users/elbryan/Documents/MapKitDynRoutes/Demo/Classes/FFLocationManager.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@81"Compile /Users/elbryan/Documents/MapKitDynRoutes/Demo/Classes/FFLocationManager.m301308199#301308199#0(0"0(0#0#73"/Users/elbryan/Documents/MapKitDynRoutes/Demo/Classes/FFLocationManager.m7886488416478786560#1952"    cd /Users/elbryan/Documents/MapKitDynRoutes/Demo    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/elbryan/Documents/MapKitDynRoutes/Demo/build/Demo.build/Debug-iphonesimulator/Demo.build/Demo-generated-files.hmap -I/Users/elbryan/Documents/MapKitDynRoutes/Demo/build/Demo.build/Debug-iphonesimulator/Demo.build/Demo-own-target-headers.hmap -I/Users/elbryan/Documents/MapKitDynRoutes/Demo/build/Demo.build/Debug-iphonesimulator/Demo.build/Demo-all-target-headers.hmap -iquote /Users/elbryan/Documents/MapKitDynRoutes/Demo/build/Demo.build/Debug-iphonesimulator/Demo.build/Demo-project-headers.hmap -F/Users/elbryan/Documents/MapKitDynRoutes/Demo/build/Debug-iphonesimulator -I/Users/elbryan/Documents/MapKitDynRoutes/Demo/build/Debug-iphonesimulator/include -I/Users/elbryan/Documents/MapKitDynRoutes/Demo/build/Demo.build/Debug-iphonesimulator/Demo.build/DerivedSources/i386 -I/Users/elbryan/Documents/MapKitDynRoutes/Demo/build/Demo.build/Debug-iphonesimulator/Demo.build/DerivedSources -include /var/folders/r2/r2eLjUuiFnq6ipRA0GZqVU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Demo_Prefix-etkasqipsjfyzyhcosektqdqsfmf/Demo_Prefix.pch -c /Users/elbryan/Documents/MapKitDynRoutes/Demo/Classes/FFLocationManager.m -o /Users/elbryan/Documents/MapKitDynRoutes/Demo/build/Demo.build/Debug-iphonesimulator/Demo.build/Objects-normal/i386/FFLocationManager.o0#
+
+CCompileC build/Demo.build/Debug-iphonesimulator/Demo.build/Objects-normal/i386/FFLocationManager.o /Users/elbryan/Documents/MapKitDynRoutes/Demo/Classes/FFLocationManager.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s301308901.066224
+e301308901.147697
+r1
+xCompileC
+xbuild/Demo.build/Debug-iphonesimulator/Demo.build/Objects-normal/i386/FFLocationManager.o
+x/Users/elbryan/Documents/MapKitDynRoutes/Demo/Classes/FFLocationManager.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF07#2@81"Compile /Users/elbryan/Documents/MapKitDynRoutes/Demo/Classes/FFLocationManager.m301308901#301308901#0(0"0(0#0#73"/Users/elbryan/Documents/MapKitDynRoutes/Demo/Classes/FFLocationManager.m8619077792#2019"    cd /Users/elbryan/Documents/MapKitDynRoutes/Demo    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/elbryan/Documents/MapKitDynRoutes/Demo/build/Demo.build/Debug-iphonesimulator/Demo.build/Demo-generated-files.hmap -I/Users/elbryan/Documents/MapKitDynRoutes/Demo/build/Demo.build/Debug-iphonesimulator/Demo.build/Demo-own-target-headers.hmap -I/Users/elbryan/Documents/MapKitDynRoutes/Demo/build/Demo.build/Debug-iphonesimulator/Demo.build/Demo-all-target-headers.hmap -iquote /Users/elbryan/Documents/MapKitDynRoutes/Demo/build/Demo.build/Debug-iphonesimulator/Demo.build/Demo-project-headers.hmap -F/Users/elbryan/Documents/MapKitDynRoutes/Demo/build/Debug-iphonesimulator -I/Users/elbryan/Documents/MapKitDynRoutes/Demo/build/Debug-iphonesimulator/include -I/Users/elbryan/Documents/MapKitDynRoutes/Demo/build/Demo.build/Debug-iphonesimulator/Demo.build/DerivedSources/i386 -I/Users/elbryan/Documents/MapKitDynRoutes/Demo/build/Demo.build/Debug-iphonesimulator/Demo.build/DerivedSources -Xclang -fobjc-nonfragile-abi2 -include /var/folders/r2/r2eLjUuiFnq6ipRA0GZqVU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Demo_Prefix-arlkqkqdacfsvpalpiiplrsszofi/Demo_Prefix.pch -c /Users/elbryan/Documents/MapKitDynRoutes/Demo/Classes/FFLocationManager.m -o /Users/elbryan/Documents/MapKitDynRoutes/Demo/build/Demo.build/Debug-iphonesimulator/Demo.build/Objects-normal/i386/FFLocationManager.o0#
+
+CCompileC build/Demo.build/Debug-iphonesimulator/Demo.build/Objects-normal/i386/FFMapRoute.o /Users/elbryan/Documents/MapKitDynRoutes/Demo/../FFMapRoute.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s301308199.336315
+e301308199.455172
+r1
+xCompileC
+xbuild/Demo.build/Debug-iphonesimulator/Demo.build/Objects-normal/i386/FFMapRoute.o
+x/Users/elbryan/Documents/MapKitDynRoutes/Demo/../FFMapRoute.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/elbryan/Documents/MapKitDynRoutes/Demo/../FFMapRoute.m:61: warning: property 'line' requires method '-line' to be defined - use @synthesize, @dynamic or provide a method implementation
+o/Users/elbryan/Documents/MapKitDynRoutes/Demo/../FFMapRoute.m:61: warning: property 'line' requires the method 'setLine:' to be defined - use @synthesize, @dynamic or provide a method implementation
+o/Users/elbryan/Documents/MapKitDynRoutes/Demo/../FFMapRoute.m:61: warning: property 'points' requires method '-points' to be defined - use @synthesize, @dynamic or provide a method implementation
+o/Users/elbryan/Documents/MapKitDynRoutes/Demo/../FFMapRoute.m:61: warning: property 'points' requires the method 'setPoints:' to be defined - use @synthesize, @dynamic or provide a method implementation
+o/Users/elbryan/Documents/MapKitDynRoutes/Demo/../FFMapRoute.m:61: warning: property 'level' requires method '-level' to be defined - use @synthesize, @dynamic or provide a method implementation
+o/Users/elbryan/Documents/MapKitDynRoutes/Demo/../FFMapRoute.m:61: warning: property 'level' requires the method 'setLevel:' to be defined - use @synthesize, @dynamic or provide a method implementation
+lSLF07#2@69"Compile /Users/elbryan/Documents/MapKitDynRoutes/Demo/../FFMapRoute.m301308199#301308199#0(1185"/Users/elbryan/Documents/MapKitDynRoutes/Demo/../FFMapRoute.m:61: warning: property 'line' requires method '-line' to be defined - use @synthesize, @dynamic or provide a method implementation/Users/elbryan/Documents/MapKitDynRoutes/Demo/../FFMapRoute.m:61: warning: property 'line' requires the method 'setLine:' to be defined - use @synthesize, @dynamic or provide a method implementation/Users/elbryan/Documents/MapKitDynRoutes/Demo/../FFMapRoute.m:61: warning: property 'points' requires method '-points' to be defined - use @synthesize, @dynamic or provide a method implementation/Users/elbryan/Documents/MapKitDynRoutes/Demo/../FFMapRoute.m:61: warning: property 'points' requires the method 'setPoints:' to be defined - use @synthesize, @dynamic or provide a method implementation/Users/elbryan/Documents/MapKitDynRoutes/Demo/../FFMapRoute.m:61: warning: property 'level' requires method '-level' to be defined - use @synthesize, @dynamic or provide a method implementation/Users/elbryan/Documents/MapKitDynRoutes/Demo/../FFMapRoute.m:61: warning: property 'level' requires the method 'setLevel:' to be defined - use @synthesize, @dynamic or provide a method implementation6(22@116"Property 'line' requires method '-line' to be defined - use @synthesize, @dynamic or provide a method implementation301308199#0#192#0(6@61"/Users/elbryan/Documents/MapKitDynRoutes/Demo/../FFMapRoute.m301239740#61#0#61#0#0"0(22@123"Property 'line' requires the method 'setLine:' to be defined - use @synthesize, @dynamic or provide a method implementation301308199#192#199#0(6@61"/Users/elbryan/Documents/MapKitDynRoutes/Demo/../FFMapRoute.m301239740#61#0#61#0#0"0(22@120"Property 'points' requires method '-points' to be defined - use @synthesize, @dynamic or provide a method implementation301308199#391#196#0(6@61"/Users/elbryan/Documents/MapKitDynRoutes/Demo/../FFMapRoute.m301239740#61#0#61#0#0"0(22@127"Property 'points' requires the method 'setPoints:' to be defined - use @synthesize, @dynamic or provide a method implementation301308199#587#203#0(6@61"/Users/elbryan/Documents/MapKitDynRoutes/Demo/../FFMapRoute.m301239740#61#0#61#0#0"0(22@118"Property 'level' requires method '-level' to be defined - use @synthesize, @dynamic or provide a method implementation301308199#790#194#0(6@61"/Users/elbryan/Documents/MapKitDynRoutes/Demo/../FFMapRoute.m301239740#61#0#61#0#0"0(22@125"Property 'level' requires the method 'setLevel:' to be defined - use @synthesize, @dynamic or provide a method implementation301308199#984#201#0(6@61"/Users/elbryan/Documents/MapKitDynRoutes/Demo/../FFMapRoute.m301239740#61#0#61#0#0"0(0#0#61"/Users/elbryan/Documents/MapKitDynRoutes/Demo/../FFMapRoute.m8618853984#1933"    cd /Users/elbryan/Documents/MapKitDynRoutes/Demo    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/elbryan/Documents/MapKitDynRoutes/Demo/build/Demo.build/Debug-iphonesimulator/Demo.build/Demo-generated-files.hmap -I/Users/elbryan/Documents/MapKitDynRoutes/Demo/build/Demo.build/Debug-iphonesimulator/Demo.build/Demo-own-target-headers.hmap -I/Users/elbryan/Documents/MapKitDynRoutes/Demo/build/Demo.build/Debug-iphonesimulator/Demo.build/Demo-all-target-headers.hmap -iquote /Users/elbryan/Documents/MapKitDynRoutes/Demo/build/Demo.build/Debug-iphonesimulator/Demo.build/Demo-project-headers.hmap -F/Users/elbryan/Documents/MapKitDynRoutes/Demo/build/Debug-iphonesimulator -I/Users/elbryan/Documents/MapKitDynRoutes/Demo/build/Debug-iphonesimulator/include -I/Users/elbryan/Documents/MapKitDynRoutes/Demo/build/Demo.build/Debug-iphonesimulator/Demo.build/DerivedSources/i386 -I/Users/elbryan/Documents/MapKitDynRoutes/Demo/build/Demo.build/Debug-iphonesimulator/Demo.build/DerivedSources -include /var/folders/r2/r2eLjUuiFnq6ipRA0GZqVU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Demo_Prefix-etkasqipsjfyzyhcosektqdqsfmf/Demo_Prefix.pch -c /Users/elbryan/Documents/MapKitDynRoutes/Demo/../FFMapRoute.m -o /Users/elbryan/Documents/MapKitDynRoutes/Demo/build/Demo.build/Debug-iphonesimulator/Demo.build/Objects-normal/i386/FFMapRoute.o0#
+
+CCompileC build/Demo.build/Debug-iphonesimulator/Demo.build/Objects-normal/i386/FFMapRoute.o /Users/elbryan/Documents/MapKitDynRoutes/Demo/../FFMapRoute.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s301308486.463541
+e301308486.525364
+r1
+xCompileC
+xbuild/Demo.build/Debug-iphonesimulator/Demo.build/Objects-normal/i386/FFMapRoute.o
+x/Users/elbryan/Documents/MapKitDynRoutes/Demo/../FFMapRoute.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF07#2@69"Compile /Users/elbryan/Documents/MapKitDynRoutes/Demo/../FFMapRoute.m301308486#301308486#0(0"0(0#0#61"/Users/elbryan/Documents/MapKitDynRoutes/Demo/../FFMapRoute.m8620522560#2000"    cd /Users/elbryan/Documents/MapKitDynRoutes/Demo    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/elbryan/Documents/MapKitDynRoutes/Demo/build/Demo.build/Debug-iphonesimulator/Demo.build/Demo-generated-files.hmap -I/Users/elbryan/Documents/MapKitDynRoutes/Demo/build/Demo.build/Debug-iphonesimulator/Demo.build/Demo-own-target-headers.hmap -I/Users/elbryan/Documents/MapKitDynRoutes/Demo/build/Demo.build/Debug-iphonesimulator/Demo.build/Demo-all-target-headers.hmap -iquote /Users/elbryan/Documents/MapKitDynRoutes/Demo/build/Demo.build/Debug-iphonesimulator/Demo.build/Demo-project-headers.hmap -F/Users/elbryan/Documents/MapKitDynRoutes/Demo/build/Debug-iphonesimulator -I/Users/elbryan/Documents/MapKitDynRoutes/Demo/build/Debug-iphonesimulator/include -I/Users/elbryan/Documents/MapKitDynRoutes/Demo/build/Demo.build/Debug-iphonesimulator/Demo.build/DerivedSources/i386 -I/Users/elbryan/Documents/MapKitDynRoutes/Demo/build/Demo.build/Debug-iphonesimulator/Demo.build/DerivedSources -Xclang -fobjc-nonfragile-abi2 -include /var/folders/r2/r2eLjUuiFnq6ipRA0GZqVU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Demo_Prefix-arlkqkqdacfsvpalpiiplrsszofi/Demo_Prefix.pch -c /Users/elbryan/Documents/MapKitDynRoutes/Demo/../FFMapRoute.m -o /Users/elbryan/Documents/MapKitDynRoutes/Demo/build/Demo.build/Debug-iphonesimulator/Demo.build/Objects-normal/i386/FFMapRoute.o0#
+
+CCompileC build/Demo.build/Debug-iphonesimulator/Demo.build/Objects-normal/i386/FFMapRoutes.o /Users/elbryan/Documents/MapKitDynRoutes/Demo/../FFMapRoutes.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s301308199.364107
+e301308199.559469
+r1
+xCompileC
+xbuild/Demo.build/Debug-iphonesimulator/Demo.build/Objects-normal/i386/FFMapRoutes.o
+x/Users/elbryan/Documents/MapKitDynRoutes/Demo/../FFMapRoutes.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/elbryan/Documents/MapKitDynRoutes/Demo/../FFMapRoutes.m:199: warning: property 'mapView' requires method '-mapView' to be defined - use @synthesize, @dynamic or provide a method implementation
+o/Users/elbryan/Documents/MapKitDynRoutes/Demo/../FFMapRoutes.m:199: warning: property 'mapView' requires the method 'setMapView:' to be defined - use @synthesize, @dynamic or provide a method implementation
+lSLF07#2@70"Compile /Users/elbryan/Documents/MapKitDynRoutes/Demo/../FFMapRoutes.m301308199#301308199#0(407"/Users/elbryan/Documents/MapKitDynRoutes/Demo/../FFMapRoutes.m:199: warning: property 'mapView' requires method '-mapView' to be defined - use @synthesize, @dynamic or provide a method implementation/Users/elbryan/Documents/MapKitDynRoutes/Demo/../FFMapRoutes.m:199: warning: property 'mapView' requires the method 'setMapView:' to be defined - use @synthesize, @dynamic or provide a method implementation2(22@122"Property 'mapView' requires method '-mapView' to be defined - use @synthesize, @dynamic or provide a method implementation301308199#0#200#0(6@62"/Users/elbryan/Documents/MapKitDynRoutes/Demo/../FFMapRoutes.m301239740#199#0#199#0#0"0(22@129"Property 'mapView' requires the method 'setMapView:' to be defined - use @synthesize, @dynamic or provide a method implementation301308199#200#207#0(6@62"/Users/elbryan/Documents/MapKitDynRoutes/Demo/../FFMapRoutes.m301239740#199#0#199#0#0"0(0#0#62"/Users/elbryan/Documents/MapKitDynRoutes/Demo/../FFMapRoutes.m8612969472#1935"    cd /Users/elbryan/Documents/MapKitDynRoutes/Demo    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/elbryan/Documents/MapKitDynRoutes/Demo/build/Demo.build/Debug-iphonesimulator/Demo.build/Demo-generated-files.hmap -I/Users/elbryan/Documents/MapKitDynRoutes/Demo/build/Demo.build/Debug-iphonesimulator/Demo.build/Demo-own-target-headers.hmap -I/Users/elbryan/Documents/MapKitDynRoutes/Demo/build/Demo.build/Debug-iphonesimulator/Demo.build/Demo-all-target-headers.hmap -iquote /Users/elbryan/Documents/MapKitDynRoutes/Demo/build/Demo.build/Debug-iphonesimulator/Demo.build/Demo-project-headers.hmap -F/Users/elbryan/Documents/MapKitDynRoutes/Demo/build/Debug-iphonesimulator -I/Users/elbryan/Documents/MapKitDynRoutes/Demo/build/Debug-iphonesimulator/include -I/Users/elbryan/Documents/MapKitDynRoutes/Demo/build/Demo.build/Debug-iphonesimulator/Demo.build/DerivedSources/i386 -I/Users/elbryan/Documents/MapKitDynRoutes/Demo/build/Demo.build/Debug-iphonesimulator/Demo.build/DerivedSources -include /var/folders/r2/r2eLjUuiFnq6ipRA0GZqVU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Demo_Prefix-etkasqipsjfyzyhcosektqdqsfmf/Demo_Prefix.pch -c /Users/elbryan/Documents/MapKitDynRoutes/Demo/../FFMapRoutes.m -o /Users/elbryan/Documents/MapKitDynRoutes/Demo/build/Demo.build/Debug-iphonesimulator/Demo.build/Objects-normal/i386/FFMapRoutes.o0#
+
+CCompileC build/Demo.build/Debug-iphonesimulator/Demo.build/Objects-normal/i386/FFMapRoutes.o /Users/elbryan/Documents/MapKitDynRoutes/Demo/../FFMapRoutes.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s301308486.510941
+e301308486.738808
+r1
+xCompileC
+xbuild/Demo.build/Debug-iphonesimulator/Demo.build/Objects-normal/i386/FFMapRoutes.o
+x/Users/elbryan/Documents/MapKitDynRoutes/Demo/../FFMapRoutes.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF07#2@70"Compile /Users/elbryan/Documents/MapKitDynRoutes/Demo/../FFMapRoutes.m301308486#301308486#0(0"0(0#0#62"/Users/elbryan/Documents/MapKitDynRoutes/Demo/../FFMapRoutes.m8620340896#2002"    cd /Users/elbryan/Documents/MapKitDynRoutes/Demo    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/elbryan/Documents/MapKitDynRoutes/Demo/build/Demo.build/Debug-iphonesimulator/Demo.build/Demo-generated-files.hmap -I/Users/elbryan/Documents/MapKitDynRoutes/Demo/build/Demo.build/Debug-iphonesimulator/Demo.build/Demo-own-target-headers.hmap -I/Users/elbryan/Documents/MapKitDynRoutes/Demo/build/Demo.build/Debug-iphonesimulator/Demo.build/Demo-all-target-headers.hmap -iquote /Users/elbryan/Documents/MapKitDynRoutes/Demo/build/Demo.build/Debug-iphonesimulator/Demo.build/Demo-project-headers.hmap -F/Users/elbryan/Documents/MapKitDynRoutes/Demo/build/Debug-iphonesimulator -I/Users/elbryan/Documents/MapKitDynRoutes/Demo/build/Debug-iphonesimulator/include -I/Users/elbryan/Documents/MapKitDynRoutes/Demo/build/Demo.build/Debug-iphonesimulator/Demo.build/DerivedSources/i386 -I/Users/elbryan/Documents/MapKitDynRoutes/Demo/build/Demo.build/Debug-iphonesimulator/Demo.build/DerivedSources -Xclang -fobjc-nonfragile-abi2 -include /var/folders/r2/r2eLjUuiFnq6ipRA0GZqVU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Demo_Prefix-arlkqkqdacfsvpalpiiplrsszofi/Demo_Prefix.pch -c /Users/elbryan/Documents/MapKitDynRoutes/Demo/../FFMapRoutes.m -o /Users/elbryan/Documents/MapKitDynRoutes/Demo/build/Demo.build/Debug-iphonesimulator/Demo.build/Objects-normal/i386/FFMapRoutes.o0#
+
+CCompileC build/Demo.build/Debug-iphonesimulator/Demo.build/Objects-normal/i386/MapViewController.o /Users/elbryan/Documents/MapKitDynRoutes/Demo/Classes/MapViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s301308199.559597
+e301308199.659716
+r1
+xCompileC
+xbuild/Demo.build/Debug-iphonesimulator/Demo.build/Objects-normal/i386/MapViewController.o
+x/Users/elbryan/Documents/MapKitDynRoutes/Demo/Classes/MapViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/elbryan/Documents/MapKitDynRoutes/Demo/Classes/MapViewController.m:58: warning: property 'myMapView' requires method '-myMapView' to be defined - use @synthesize, @dynamic or provide a method implementation
+o/Users/elbryan/Documents/MapKitDynRoutes/Demo/Classes/MapViewController.m:58: warning: property 'myMapView' requires the method 'setMyMapView:' to be defined - use @synthesize, @dynamic or provide a method implementation
+lSLF07#2@81"Compile /Users/elbryan/Documents/MapKitDynRoutes/Demo/Classes/MapViewController.m301308199#301308199#0(435"/Users/elbryan/Documents/MapKitDynRoutes/Demo/Classes/MapViewController.m:58: warning: property 'myMapView' requires method '-myMapView' to be defined - use @synthesize, @dynamic or provide a method implementation/Users/elbryan/Documents/MapKitDynRoutes/Demo/Classes/MapViewController.m:58: warning: property 'myMapView' requires the method 'setMyMapView:' to be defined - use @synthesize, @dynamic or provide a method implementation2(22@126"Property 'myMapView' requires method '-myMapView' to be defined - use @synthesize, @dynamic or provide a method implementation301308199#0#214#0(6@73"/Users/elbryan/Documents/MapKitDynRoutes/Demo/Classes/MapViewController.m301308105#58#0#58#0#0"0(22@133"Property 'myMapView' requires the method 'setMyMapView:' to be defined - use @synthesize, @dynamic or provide a method implementation301308199#214#221#0(6@73"/Users/elbryan/Documents/MapKitDynRoutes/Demo/Classes/MapViewController.m301308105#58#0#58#0#0"0(0#0#73"/Users/elbryan/Documents/MapKitDynRoutes/Demo/Classes/MapViewController.m8620219392#1952"    cd /Users/elbryan/Documents/MapKitDynRoutes/Demo    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/elbryan/Documents/MapKitDynRoutes/Demo/build/Demo.build/Debug-iphonesimulator/Demo.build/Demo-generated-files.hmap -I/Users/elbryan/Documents/MapKitDynRoutes/Demo/build/Demo.build/Debug-iphonesimulator/Demo.build/Demo-own-target-headers.hmap -I/Users/elbryan/Documents/MapKitDynRoutes/Demo/build/Demo.build/Debug-iphonesimulator/Demo.build/Demo-all-target-headers.hmap -iquote /Users/elbryan/Documents/MapKitDynRoutes/Demo/build/Demo.build/Debug-iphonesimulator/Demo.build/Demo-project-headers.hmap -F/Users/elbryan/Documents/MapKitDynRoutes/Demo/build/Debug-iphonesimulator -I/Users/elbryan/Documents/MapKitDynRoutes/Demo/build/Debug-iphonesimulator/include -I/Users/elbryan/Documents/MapKitDynRoutes/Demo/build/Demo.build/Debug-iphonesimulator/Demo.build/DerivedSources/i386 -I/Users/elbryan/Documents/MapKitDynRoutes/Demo/build/Demo.build/Debug-iphonesimulator/Demo.build/DerivedSources -include /var/folders/r2/r2eLjUuiFnq6ipRA0GZqVU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Demo_Prefix-etkasqipsjfyzyhcosektqdqsfmf/Demo_Prefix.pch -c /Users/elbryan/Documents/MapKitDynRoutes/Demo/Classes/MapViewController.m -o /Users/elbryan/Documents/MapKitDynRoutes/Demo/build/Demo.build/Debug-iphonesimulator/Demo.build/Objects-normal/i386/MapViewController.o0#
+
+CCompileC build/Demo.build/Debug-iphonesimulator/Demo.build/Objects-normal/i386/MapViewController.o /Users/elbryan/Documents/MapKitDynRoutes/Demo/Classes/MapViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s301309434.713951
+e301309434.810851
+r1
+xCompileC
+xbuild/Demo.build/Debug-iphonesimulator/Demo.build/Objects-normal/i386/MapViewController.o
+x/Users/elbryan/Documents/MapKitDynRoutes/Demo/Classes/MapViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF07#2@81"Compile /Users/elbryan/Documents/MapKitDynRoutes/Demo/Classes/MapViewController.m301309434#301309434#0(0"0(0#0#73"/Users/elbryan/Documents/MapKitDynRoutes/Demo/Classes/MapViewController.m8625771552#2019"    cd /Users/elbryan/Documents/MapKitDynRoutes/Demo    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/elbryan/Documents/MapKitDynRoutes/Demo/build/Demo.build/Debug-iphonesimulator/Demo.build/Demo-generated-files.hmap -I/Users/elbryan/Documents/MapKitDynRoutes/Demo/build/Demo.build/Debug-iphonesimulator/Demo.build/Demo-own-target-headers.hmap -I/Users/elbryan/Documents/MapKitDynRoutes/Demo/build/Demo.build/Debug-iphonesimulator/Demo.build/Demo-all-target-headers.hmap -iquote /Users/elbryan/Documents/MapKitDynRoutes/Demo/build/Demo.build/Debug-iphonesimulator/Demo.build/Demo-project-headers.hmap -F/Users/elbryan/Documents/MapKitDynRoutes/Demo/build/Debug-iphonesimulator -I/Users/elbryan/Documents/MapKitDynRoutes/Demo/build/Debug-iphonesimulator/include -I/Users/elbryan/Documents/MapKitDynRoutes/Demo/build/Demo.build/Debug-iphonesimulator/Demo.build/DerivedSources/i386 -I/Users/elbryan/Documents/MapKitDynRoutes/Demo/build/Demo.build/Debug-iphonesimulator/Demo.build/DerivedSources -Xclang -fobjc-nonfragile-abi2 -include /var/folders/r2/r2eLjUuiFnq6ipRA0GZqVU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Demo_Prefix-arlkqkqdacfsvpalpiiplrsszofi/Demo_Prefix.pch -c /Users/elbryan/Documents/MapKitDynRoutes/Demo/Classes/MapViewController.m -o /Users/elbryan/Documents/MapKitDynRoutes/Demo/build/Demo.build/Debug-iphonesimulator/Demo.build/Objects-normal/i386/MapViewController.o0#
+
+CCompileC build/Demo.build/Debug-iphonesimulator/Demo.build/Objects-normal/i386/main.o /Users/elbryan/Documents/MapKitDynRoutes/Demo/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s301308199.186633
+e301308199.336191
+r1
+xCompileC
+xbuild/Demo.build/Debug-iphonesimulator/Demo.build/Objects-normal/i386/main.o
+x/Users/elbryan/Documents/MapKitDynRoutes/Demo/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@60"Compile /Users/elbryan/Documents/MapKitDynRoutes/Demo/main.m301308199#301308199#0(0"0(0#0#52"/Users/elbryan/Documents/MapKitDynRoutes/Demo/main.m8619596512#1918"    cd /Users/elbryan/Documents/MapKitDynRoutes/Demo    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/elbryan/Documents/MapKitDynRoutes/Demo/build/Demo.build/Debug-iphonesimulator/Demo.build/Demo-generated-files.hmap -I/Users/elbryan/Documents/MapKitDynRoutes/Demo/build/Demo.build/Debug-iphonesimulator/Demo.build/Demo-own-target-headers.hmap -I/Users/elbryan/Documents/MapKitDynRoutes/Demo/build/Demo.build/Debug-iphonesimulator/Demo.build/Demo-all-target-headers.hmap -iquote /Users/elbryan/Documents/MapKitDynRoutes/Demo/build/Demo.build/Debug-iphonesimulator/Demo.build/Demo-project-headers.hmap -F/Users/elbryan/Documents/MapKitDynRoutes/Demo/build/Debug-iphonesimulator -I/Users/elbryan/Documents/MapKitDynRoutes/Demo/build/Debug-iphonesimulator/include -I/Users/elbryan/Documents/MapKitDynRoutes/Demo/build/Demo.build/Debug-iphonesimulator/Demo.build/DerivedSources/i386 -I/Users/elbryan/Documents/MapKitDynRoutes/Demo/build/Demo.build/Debug-iphonesimulator/Demo.build/DerivedSources -include /var/folders/r2/r2eLjUuiFnq6ipRA0GZqVU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Demo_Prefix-etkasqipsjfyzyhcosektqdqsfmf/Demo_Prefix.pch -c /Users/elbryan/Documents/MapKitDynRoutes/Demo/main.m -o /Users/elbryan/Documents/MapKitDynRoutes/Demo/build/Demo.build/Debug-iphonesimulator/Demo.build/Objects-normal/i386/main.o0#
+
+CCompileC build/Demo.build/Debug-iphonesimulator/Demo.build/Objects-normal/i386/main.o /Users/elbryan/Documents/MapKitDynRoutes/Demo/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s301308486.401470
+e301308486.463425
+r1
+xCompileC
+xbuild/Demo.build/Debug-iphonesimulator/Demo.build/Objects-normal/i386/main.o
+x/Users/elbryan/Documents/MapKitDynRoutes/Demo/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF07#2@60"Compile /Users/elbryan/Documents/MapKitDynRoutes/Demo/main.m301308486#301308486#0(0"0(0#0#52"/Users/elbryan/Documents/MapKitDynRoutes/Demo/main.m8620840096#1985"    cd /Users/elbryan/Documents/MapKitDynRoutes/Demo    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/elbryan/Documents/MapKitDynRoutes/Demo/build/Demo.build/Debug-iphonesimulator/Demo.build/Demo-generated-files.hmap -I/Users/elbryan/Documents/MapKitDynRoutes/Demo/build/Demo.build/Debug-iphonesimulator/Demo.build/Demo-own-target-headers.hmap -I/Users/elbryan/Documents/MapKitDynRoutes/Demo/build/Demo.build/Debug-iphonesimulator/Demo.build/Demo-all-target-headers.hmap -iquote /Users/elbryan/Documents/MapKitDynRoutes/Demo/build/Demo.build/Debug-iphonesimulator/Demo.build/Demo-project-headers.hmap -F/Users/elbryan/Documents/MapKitDynRoutes/Demo/build/Debug-iphonesimulator -I/Users/elbryan/Documents/MapKitDynRoutes/Demo/build/Debug-iphonesimulator/include -I/Users/elbryan/Documents/MapKitDynRoutes/Demo/build/Demo.build/Debug-iphonesimulator/Demo.build/DerivedSources/i386 -I/Users/elbryan/Documents/MapKitDynRoutes/Demo/build/Demo.build/Debug-iphonesimulator/Demo.build/DerivedSources -Xclang -fobjc-nonfragile-abi2 -include /var/folders/r2/r2eLjUuiFnq6ipRA0GZqVU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Demo_Prefix-arlkqkqdacfsvpalpiiplrsszofi/Demo_Prefix.pch -c /Users/elbryan/Documents/MapKitDynRoutes/Demo/main.m -o /Users/elbryan/Documents/MapKitDynRoutes/Demo/build/Demo.build/Debug-iphonesimulator/Demo.build/Objects-normal/i386/main.o0#
+
+CCompileXIB /Users/elbryan/Documents/MapKitDynRoutes/Demo/Classes/MapViewController.xib
+s301308764.172058
+e301308764.778911
+r1
+xCompileXIB
+x/Users/elbryan/Documents/MapKitDynRoutes/Demo/Classes/MapViewController.xib
+lSLF07#2@40"CompileXIB Classes/MapViewController.xib301308764#301308764#0(0"0(0#0#75"/Users/elbryan/Documents/MapKitDynRoutes/Demo/Classes/MapViewController.xib8619228800#612"    cd /Users/elbryan/Documents/MapKitDynRoutes/Demo    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1.3    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/elbryan/Documents/MapKitDynRoutes/Demo/build/Debug-iphonesimulator/Demo.app/MapViewController.nib /Users/elbryan/Documents/MapKitDynRoutes/Demo/Classes/MapViewController.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk0#
+
+CCompileXIB /Users/elbryan/Documents/MapKitDynRoutes/Demo/MainWindow.xib
+s301308485.556112
+e301308486.110366
+r1
+xCompileXIB
+x/Users/elbryan/Documents/MapKitDynRoutes/Demo/MainWindow.xib
+lSLF07#2@25"CompileXIB MainWindow.xib301308485#301308486#0(0"0(0#0#60"/Users/elbryan/Documents/MapKitDynRoutes/Demo/MainWindow.xib8613979296#590"    cd /Users/elbryan/Documents/MapKitDynRoutes/Demo    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1.3    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/elbryan/Documents/MapKitDynRoutes/Demo/build/Debug-iphonesimulator/Demo.app/MainWindow.nib /Users/elbryan/Documents/MapKitDynRoutes/Demo/MainWindow.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk0#
+
+CCpResource build/Debug-iphonesimulator/Demo.app/route.csv Resources/route.csv
+s301308485.557980
+e301308485.594617
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Demo.app/route.csv
+xResources/route.csv
+lSLF07#2@24"Copy Resources/route.csv301308485#301308485#0(0"0(0#0#65"/Users/elbryan/Documents/MapKitDynRoutes/Demo/Resources/route.csv8611933408#481"    cd /Users/elbryan/Documents/MapKitDynRoutes/Demo    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/elbryan/Documents/MapKitDynRoutes/Demo/Resources/route.csv /Users/elbryan/Documents/MapKitDynRoutes/Demo/build/Debug-iphonesimulator/Demo.app0#
+
+CGenerateDSYMFile /Users/elbryan/Documents/MapKitDynRoutes/Demo/build/Debug-iphonesimulator/Demo.app.dSYM /Users/elbryan/Documents/MapKitDynRoutes/Demo/build/Debug-iphonesimulator/Demo.app/Demo
+s301309434.847529
+e301309434.871567
+r1
+xGenerateDSYMFile
+x/Users/elbryan/Documents/MapKitDynRoutes/Demo/build/Debug-iphonesimulator/Demo.app.dSYM
+x/Users/elbryan/Documents/MapKitDynRoutes/Demo/build/Debug-iphonesimulator/Demo.app/Demo
+lSLF07#2@100"GenerateDSYMFile build/Debug-iphonesimulator/Demo.app.dSYM build/Debug-iphonesimulator/Demo.app/Demo301309434#301309434#0(0"0(0#0#87"/Users/elbryan/Documents/MapKitDynRoutes/Demo/build/Debug-iphonesimulator/Demo.app/Demo8625375168#395"    cd /Users/elbryan/Documents/MapKitDynRoutes/Demo    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/elbryan/Documents/MapKitDynRoutes/Demo/build/Debug-iphonesimulator/Demo.app/Demo -o /Users/elbryan/Documents/MapKitDynRoutes/Demo/build/Debug-iphonesimulator/Demo.app.dSYM0#
+
+CLd /Users/elbryan/Documents/MapKitDynRoutes/Demo/build/Debug-iphonesimulator/Demo.app/Demo normal i386
+s301309434.810964
+e301309434.847419
+r1
+xLd
+x/Users/elbryan/Documents/MapKitDynRoutes/Demo/build/Debug-iphonesimulator/Demo.app/Demo
+xnormal
+xi386
+lSLF07#2@92"Link /Users/elbryan/Documents/MapKitDynRoutes/Demo/build/Debug-iphonesimulator/Demo.app/Demo301309434#301309434#0(0"0(0#0#0"8623941952#960"    cd /Users/elbryan/Documents/MapKitDynRoutes/Demo    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/clang -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -L/Users/elbryan/Documents/MapKitDynRoutes/Demo/build/Debug-iphonesimulator -F/Users/elbryan/Documents/MapKitDynRoutes/Demo/build/Debug-iphonesimulator -filelist /Users/elbryan/Documents/MapKitDynRoutes/Demo/build/Demo.build/Debug-iphonesimulator/Demo.build/Objects-normal/i386/Demo.LinkFileList -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -framework CoreLocation -framework MapKit -o /Users/elbryan/Documents/MapKitDynRoutes/Demo/build/Debug-iphonesimulator/Demo.app/Demo0#
+
+CProcessInfoPlistFile /Users/elbryan/Documents/MapKitDynRoutes/Demo/build/Debug-iphonesimulator/Demo.app/Info.plist Demo-Info.plist
+s301308624.328391
+e301308624.345456
+r1
+xProcessInfoPlistFile
+x/Users/elbryan/Documents/MapKitDynRoutes/Demo/build/Debug-iphonesimulator/Demo.app/Info.plist
+xDemo-Info.plist
+lSLF07#2@23"Process Demo-Info.plist301308624#301308624#0(0"0(0#0#61"/Users/elbryan/Documents/MapKitDynRoutes/Demo/Demo-Info.plist8618562112#491"    cd /Users/elbryan/Documents/MapKitDynRoutes/Demo    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility Demo-Info.plist -genpkginfo /Users/elbryan/Documents/MapKitDynRoutes/Demo/build/Debug-iphonesimulator/Demo.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/elbryan/Documents/MapKitDynRoutes/Demo/build/Debug-iphonesimulator/Demo.app/Info.plist0#
+
+CProcessPCH /var/folders/r2/r2eLjUuiFnq6ipRA0GZqVU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Demo_Prefix-arlkqkqdacfsvpalpiiplrsszofi/Demo_Prefix.pch.pth Demo_Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s301308486.129408
+e301308486.401341
+r1
+xProcessPCH
+x/var/folders/r2/r2eLjUuiFnq6ipRA0GZqVU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Demo_Prefix-arlkqkqdacfsvpalpiiplrsszofi/Demo_Prefix.pch.pth
+xDemo_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF07#2@26"Precompile Demo_Prefix.pch301308486#301308486#0(0"0(0#0#61"/Users/elbryan/Documents/MapKitDynRoutes/Demo/Demo_Prefix.pch8619525888#1873"    cd /Users/elbryan/Documents/MapKitDynRoutes/Demo    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/clang -x objective-c-header -arch i386 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/elbryan/Documents/MapKitDynRoutes/Demo/build/Demo.build/Debug-iphonesimulator/Demo.build/Demo-generated-files.hmap -I/Users/elbryan/Documents/MapKitDynRoutes/Demo/build/Demo.build/Debug-iphonesimulator/Demo.build/Demo-own-target-headers.hmap -I/Users/elbryan/Documents/MapKitDynRoutes/Demo/build/Demo.build/Debug-iphonesimulator/Demo.build/Demo-all-target-headers.hmap -iquote /Users/elbryan/Documents/MapKitDynRoutes/Demo/build/Demo.build/Debug-iphonesimulator/Demo.build/Demo-project-headers.hmap -F/Users/elbryan/Documents/MapKitDynRoutes/Demo/build/Debug-iphonesimulator -I/Users/elbryan/Documents/MapKitDynRoutes/Demo/build/Debug-iphonesimulator/include -I/Users/elbryan/Documents/MapKitDynRoutes/Demo/build/Demo.build/Debug-iphonesimulator/Demo.build/DerivedSources/i386 -I/Users/elbryan/Documents/MapKitDynRoutes/Demo/build/Demo.build/Debug-iphonesimulator/Demo.build/DerivedSources -Xclang -fobjc-nonfragile-abi2 -c /Users/elbryan/Documents/MapKitDynRoutes/Demo/Demo_Prefix.pch -o /var/folders/r2/r2eLjUuiFnq6ipRA0GZqVU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Demo_Prefix-arlkqkqdacfsvpalpiiplrsszofi/Demo_Prefix.pch.pth0#
+
+CProcessPCH /var/folders/r2/r2eLjUuiFnq6ipRA0GZqVU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Demo_Prefix-cyhzskebsswlltamzeqvbjsugbgo/Demo_Prefix.pch.pth Demo_Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CProcessPCH /var/folders/r2/r2eLjUuiFnq6ipRA0GZqVU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Demo_Prefix-etkasqipsjfyzyhcosektqdqsfmf/Demo_Prefix.pch.gch Demo_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s301308197.923450
+e301308199.186385
+r1
+xProcessPCH
+x/var/folders/r2/r2eLjUuiFnq6ipRA0GZqVU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Demo_Prefix-etkasqipsjfyzyhcosektqdqsfmf/Demo_Prefix.pch.gch
+xDemo_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@26"Precompile Demo_Prefix.pch301308197#301308199#0(0"0(0#0#61"/Users/elbryan/Documents/MapKitDynRoutes/Demo/Demo_Prefix.pch8618707424#1806"    cd /Users/elbryan/Documents/MapKitDynRoutes/Demo    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/elbryan/Documents/MapKitDynRoutes/Demo/build/Demo.build/Debug-iphonesimulator/Demo.build/Demo-generated-files.hmap -I/Users/elbryan/Documents/MapKitDynRoutes/Demo/build/Demo.build/Debug-iphonesimulator/Demo.build/Demo-own-target-headers.hmap -I/Users/elbryan/Documents/MapKitDynRoutes/Demo/build/Demo.build/Debug-iphonesimulator/Demo.build/Demo-all-target-headers.hmap -iquote /Users/elbryan/Documents/MapKitDynRoutes/Demo/build/Demo.build/Debug-iphonesimulator/Demo.build/Demo-project-headers.hmap -F/Users/elbryan/Documents/MapKitDynRoutes/Demo/build/Debug-iphonesimulator -I/Users/elbryan/Documents/MapKitDynRoutes/Demo/build/Debug-iphonesimulator/include -I/Users/elbryan/Documents/MapKitDynRoutes/Demo/build/Demo.build/Debug-iphonesimulator/Demo.build/DerivedSources/i386 -I/Users/elbryan/Documents/MapKitDynRoutes/Demo/build/Demo.build/Debug-iphonesimulator/Demo.build/DerivedSources -c /Users/elbryan/Documents/MapKitDynRoutes/Demo/Demo_Prefix.pch -o /var/folders/r2/r2eLjUuiFnq6ipRA0GZqVU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Demo_Prefix-etkasqipsjfyzyhcosektqdqsfmf/Demo_Prefix.pch.gch0#
+
+CTouch /Users/elbryan/Documents/MapKitDynRoutes/Demo/build/Debug-iphonesimulator/Demo.app
+s301309434.871674
+e301309434.874793
+r1
+xTouch
+x/Users/elbryan/Documents/MapKitDynRoutes/Demo/build/Debug-iphonesimulator/Demo.app
+lSLF07#2@88"Touch /Users/elbryan/Documents/MapKitDynRoutes/Demo/build/Debug-iphonesimulator/Demo.app301309434#301309434#0(0"0(0#0#0"8624134912#289"    cd /Users/elbryan/Documents/MapKitDynRoutes/Demo    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/elbryan/Documents/MapKitDynRoutes/Demo/build/Debug-iphonesimulator/Demo.app0#
+

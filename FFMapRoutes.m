@@ -105,10 +105,8 @@ BOOL areCoordinateEqual(CLLocationCoordinate2D *aCoordinate, CLLocationCoordinat
 	[segment addObject:aPoint];
 	[segment addObject:bPoint];
 	
-	
 	/* Check if we are in a bogus/placeholder situation */
 	route = [array lastObject];
-	
 	/* if the polyline doesn't exist, then we have an empty class. Remove it and keep with the job. */
 	if (route && (route.line == nil)) {
 		[array removeLastObject];
@@ -117,7 +115,7 @@ BOOL areCoordinateEqual(CLLocationCoordinate2D *aCoordinate, CLLocationCoordinat
 	
 	/* Otherwisely we have to create it */
 	route = [[FFMapRoute alloc] initWithSegment:segment];
-	/* Any new route has a level value of 1 */
+	/* Any new route has a level value of 0 */
 	route.level = 0;
 	[array addObject:route];
 	
