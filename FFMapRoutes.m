@@ -106,20 +106,21 @@ BOOL areCoordinateEqual(CLLocationCoordinate2D *aCoordinate, CLLocationCoordinat
 	[segment addObject:aPoint];
 	[segment addObject:bPoint];
 	
-	/* Check if we are in a bogus/placeholder situation */
+	/* Check if we are in a placeholder situation */
 	route = [array lastObject];
-	/* if the polyline doesn't exist, then we have an empty class. Remove it and keep with the job. */
+	/* if the polyline doesn't exist, then we have a placeholder. Remove it. */
 	if (route && (route.line == nil)) {
 		[array removeLastObject];
 		route = nil;
 	}
 	
-	/* Otherwisely we have to create it */
+	/* Then create the new route */
 	route = [[FFMapRoute alloc] initWithSegment:segment];
-	/* Any new route has a level value of 0 */
+	/* Any new route has a level value of 0 (the minor one) */
 	route.level = 0;
 	[array addObject:route];
 	
+	/* Add the overlay to the map */
 	[mapView addOverlay:[route line]];
 	
 	[route release];
@@ -131,7 +132,9 @@ BOOL areCoordinateEqual(CLLocationCoordinate2D *aCoordinate, CLLocationCoordinat
 	NSArray *lastroutes = [routes lastObject];
 	
 	if ([lastroutes count] == kAGGREGATION_FACTOR) {
+		/* Aggregate points */
 		[self aggregateRoutes];
+		/* Re-run this method in order to check if more aggregation is needed */
 		[self checkAggregationIsNeeded];
 	}
 }
@@ -172,7 +175,7 @@ BOOL areCoordinateEqual(CLLocationCoordinate2D *aCoordinate, CLLocationCoordinat
 - (void) aggregatePoints:(NSArray *)points toArray:(NSMutableArray *)array {
 	CLLocationCoordinate2D prev;
 	NSMutableArray *newPoints = [[NSMutableArray alloc] init];
-	int level = 1;
+	int level = 0;
 
 	/* Check all the routes */
 	for (FFMapRoute *route in points) {
