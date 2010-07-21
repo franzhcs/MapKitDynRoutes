@@ -18,10 +18,12 @@
 @property (nonatomic, retain) NSMutableArray *points;
 @property (nonatomic, assign) NSUInteger level;
 
-/* Init the object with a segment */
-- (id) initWithSegment:(NSArray *)segment;
+/* Init the object with a list of points */
+- (id) initWithPoints:(NSArray *)newPoints;
 
 /* Add coordinate to the local array by wrapping it into a NSData object */
-- (void) addPoint:(CLLocationCoordinate2D) coordinate;
+/* This method is useful when you created a placeholder that is an empty FFMapRoute instance. */
+/* With this method you can drop the existing points and regenerate the new polyline */
+- (void) updateRouteWithPoints:(NSArray *)newPoints;
 
 @end

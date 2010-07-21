@@ -108,22 +108,24 @@ BOOL areCoordinateEqual(CLLocationCoordinate2D *aCoordinate, CLLocationCoordinat
 	
 	/* Check if we are in a placeholder situation */
 	route = [array lastObject];
-	/* if the polyline doesn't exist, then we have a placeholder. Remove it. */
+	/* If the polyline doesn't exist, then we have a placeholder. */
+	/* Reuse it and update its data */
 	if (route && (route.line == nil)) {
-		[array removeLastObject];
-		route = nil;
+		[route updateRouteWithPoints:segment];
 	}
-	
-	/* Then create the new route */
-	route = [[FFMapRoute alloc] initWithSegment:segment];
-	/* Any new route has a level value of 0 (the minor one) */
+	/* Else we have a valid route that's not going to be touched. Instance a new route for the
+	 next segment */
+	else {
+		/* Then create the new route */
+		route = [[[FFMapRoute alloc] initWithPoints:segment] autorelease];
+	}
+
 	route.level = 0;
 	[array addObject:route];
 	
 	/* Add the overlay to the map */
 	[mapView addOverlay:[route line]];
 	
-	[route release];
 	[segment release];
 }
 
@@ -196,7 +198,7 @@ BOOL areCoordinateEqual(CLLocationCoordinate2D *aCoordinate, CLLocationCoordinat
 	}
 	
 	/* Generate the new route */
-	FFMapRoute *newRoute = [[FFMapRoute alloc] initWithSegment:newPoints];
+	FFMapRoute *newRoute = [[FFMapRoute alloc] initWithPoints:newPoints];
 	newRoute.level = ++level;
 	[array addObject:newRoute];
 	
